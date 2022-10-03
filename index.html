@@ -2,43 +2,80 @@
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scale=no">
     <title>小雪球导航</title>
-    <style>
+    <style type="text/css">
         body {
-            background: url(99.jpg);
+            background: url(https://i.postimg.cc/SNVxH8L3/OIP-C.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: scroll
         }
 
         div {
             border-radius: 10px
         }
 
-        #wapper {
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height:10px;
+            width:600px;
+            margin: 30px auto 0 auto;
+        }
+
+        .parent {
             position: relative;
-            height: auto;
-            min-height: 100%
         }
 
-        #footer {
+        .search {
+            width: 150px;
+            height: 20px;
+            border-radius: 18px;
+            outline: none;
+            border: 1px solid #ccc;
+            padding-left: 20px;
             position: absolute;
-            bottom: 0;
-            left: 0;
-            height: 60px;
+            font: right
         }
 
-        #main-content {
-            padding-bottom: 130px;
+        .btn {
+            height: 10px;
+            width: 10px;
+            position: absolute;
+            background: url("images/topbar.png") no-repeat -2px -99px;
+            top: 6px;
+            left: 285px;
+            border: none;
+            outline: none;
+            cursor: pointer;
         }
     </style>
 </head>
-<body style="height:100%">
+<body>
+    <article>
+
+        <header>
+            <h1>SNOWBALL RESEAR</h1>
+            <p style="font-size:10px;text-align:left"><b>雪球私人导航</b></p>
+        </header>
+        
+    </article> 
+    <div style="
+        text-align:left" class="container">
+        <form action="" class="parent">
+            <input type="text" class="search" placeholder="搜索">
+            <input type="button" name="" id="" class="btn">
+        </form>
+    </div>
     <div style="
         text-align:center;
         padding:20px;
         ">
         <img src="https://i.postimg.cc/ZRLSX3Rv/IMG-8417-20220930-152412.jpg" width="90" height="90">
-        <p style="color:black;font-size:25px;text-align:center"><b>小雪球导航</b></p>
     </div>
     <div style="background-color:snow">
         <h1 style="color:red;font-size:15px;text-align:center;">索引</h1>
@@ -55,25 +92,23 @@
             <img style="float:initial" src="https://i.postimg.cc/DwwXmQgQ/OIP-C.jpg" width="15" height="15"> <a href="https://www.microsoft.com/zh-cn/edge">Edge</a>
             <img src="https://i.postimg.cc/KzvCR8zs/OIP-C.jpg" width="20" height="20"> <a href="https://www.wps.cn/">WPS</a>
             <img src="https://i.postimg.cc/7ZwFp94k/OIP-C.jpg" width="20" height="20"><a href="https://soft.qmshengekj.cn/visual/index.html?source=360x&unitid=2733696884&unit=visual&e_creative=11995673794">VS</a>
-        </p>
-    </div>
+            <img src="https://i.postimg.cc/Fs2Ls8n3/OIP-C.jpg" width="20" height="20"> <a href="https://github.com/">GitHub</a>
+            <img src="https://i.postimg.cc/m2bHc7b2/OIP-C.jpg" width="20" height="20"> <a href="https://postimg.cc/">Postimage</a>
+</div>
     <div style="background-color:snow">
         <h1 style="color:red;font-size:15px;text-align:center;">娱乐</h1>
         <p style="font-size:15px;letter-spacing:2px">
+            <img src="https://i.postimg.cc/L8JBXjTg/download.jpg" width="20" height="20"> <a href="https://www.bilibili.com/">bilibili</a>
+            <img src="https://i.postimg.cc/nVw1tdKf/OIP-C.jpg" width="20" height="20"> <a href="https://www.imomoedm.com/">樱花动漫</a>
         </p>
     </div>
-    <p style="text-align:center;
-        padding:40px;
-        font-size:15px;
-        ">
-        <div id="wapper">
-            <div id="main-content">
-                >
-            </div>
-            <div id="footer">
-            </div>
+    <div>
+        <div>
         </div>
-    <p style="text-align:center"><b><u>个人导航</u></b></p>
+        <div>
+        </div>
+    </div>
+    <p style="text-align: center;padding:40px; font-size: 15px;"><b><u>个人导航</u></b></p>
 </body>
 </html>
 
